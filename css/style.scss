@@ -1,0 +1,73 @@
+body {
+   margin: 0;
+   background-color: #9e9e9e;
+ }
+ .container {
+   margin: 0 auto;
+   width: 80%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .rgb-btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    padding: .5rem;
+    background-color: #fff;
+    border-radius: 1rem;
+   .btn{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: box-shadow .2s;
+     color: #fff;
+     width: 5rem;
+     height: 5rem;
+     border-radius: 50%;
+     cursor: pointer;
+     box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+     &.on {
+       box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+     }
+     p {
+       font-size: 1.5rem;
+     }
+   }
+   .click-me {
+     position: absolute;
+     top: -70px;
+     width: 100px;
+     border-radius: 5rem;
+     text-align: center;
+     background-color: #fff;
+   }
+   &:before {
+     content:"";
+     display: block;
+     position: absolute;
+     background-color: #fff;
+     width: 10px;
+     height: 10px;
+     top: -25px;
+     transform: rotate(45deg);
+   }
+ }
+
+$red: #ed929f;
+$green: #79c6b6;
+$blue: #90caf9;
+
+.rgb-red {
+  background-color: $red;
+}
+.rgb-green {
+  background-color: $green;
+}
+.rgb-blue {
+  background-color: $blue;
+}
