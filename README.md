@@ -13,7 +13,7 @@ To see the color animation, clone the repo or click a link below.
 
 [Demo](https://hodalab.com/works/8bit-rgb-color-animation)
 
-![demo](img/image.png)
+![demo](img/image.png | width=100)
 
 ## Requirements
 
