@@ -9,6 +9,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
+   flex-wrap: wrap;
  }
  .rgb-btn-group {
     display: flex;
@@ -57,6 +58,11 @@ body {
      transform: rotate(45deg);
    }
  }
+.text {
+  position: absolute;
+  top: 125px;
+  width: 100%;
+}
 
 $red: #ed929f;
 $green: #79c6b6;
