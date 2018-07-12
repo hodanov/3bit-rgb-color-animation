@@ -17,7 +17,7 @@ To see the color animation, clone the repo or click a link below.
 
 ## Requirements
 
-The slider requires the following to run:
+This requires the following to run:
 
 - jQuery
 - jQuery color animation
