@@ -1,4 +1,4 @@
-# 8bit RGB color animation
+# 3bit RGB color animation
 
 This is a very simple color animation demo. It can combine three RGB buttons to express eight different colors.
 
@@ -11,7 +11,7 @@ All source code is available jointly under the MIT License and the Beerware Lice
 
 To see the color animation, clone the repo or click a link below.
 
-[Demo](https://hodalab.com/works/8bit-rgb-color-animation)
+[Demo](https://hodalab.com/works/3bit-rgb-color-animation)
 
 ![demo](img/image.png)
 
